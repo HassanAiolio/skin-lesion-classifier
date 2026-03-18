@@ -1,5 +1,5 @@
 model.pth
-medical_classfier_train.ipynv
+medical_classfier_train.ipynb
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
