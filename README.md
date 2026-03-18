@@ -19,14 +19,14 @@ Try the live demo here:
 - **Total images**: 25,331  
 
 ### Class distribution
-- MEL: 4,522  
-- VASC: 253  
-- SCC: 628  
-- DF: 239  
-- NV: 12,875  
-- BKL: 2,624  
-- BCC: 3,323  
-- AK: 867  
+- MEL: Melanoma — 4,522
+- NV: Melanocytic Nevus — 12,875
+- BCC: Basal Cell Carcinoma — 3,323
+- BKL: Benign Keratosis — 2,624
+- AK: Actinic Keratosis — 867
+- SCC: Squamous Cell Carcinoma — 628
+- VASC: Vascular Lesion — 253
+- DF: Dermatofibroma — 239 
 
 The dataset is highly imbalanced, with some classes significantly underrepresented.
 
