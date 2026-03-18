@@ -8,8 +8,7 @@ The model takes an input image of a skin lesion and outputs a predicted class am
 ---
 
 ##  Demo
-Try the live demo here:  
- https://huggingface.co/spaces/HassanAiolio/skin-lesion-classifier
+Try the live demo here : [Live Demo](https://huggingface.co/spaces/HassanAiolio/skin-lesion-classifier)
 
 ---
 
@@ -63,7 +62,7 @@ The model achieves approximately:
 To retrain the model, it is recommended to use Kaggle due to dataset availability and compute resources.
 
 Dataset path on Kaggle:
-/kaggle/input/datasets/salviohexia/isic-2019-skin-lesion-images-for-classification
+[ISIC 2019 on Kaggle](https://www.kaggle.com/datasets/salviohexia/isic-2019-skin-lesion-images-for-classification)
 
 Steps:
 1. Create a Kaggle notebook
