@@ -34,7 +34,16 @@ def predict(image):
     with torch.no_grad():
         output = model(image)
         probabilities = torch.softmax(output, dim=1).squeeze().tolist()
-        classes = ['MEL', 'NV', 'BCC', 'AK', 'BKL', 'DF', 'VASC', 'SCC']
+        classes = [
+        'Melanoma (MEL)',
+        'Melanocytic Nevus (NV)',
+        'Basal Cell Carcinoma (BCC)',
+        'Actinic Keratosis (AK)',
+        'Benign Keratosis (BKL)',
+        'Dermatofibroma (DF)',
+        'Vascular Lesion (VASC)',
+        'Squamous Cell Carcinoma (SCC)'
+    ]
     return {classes[i]: probabilities[i] for i in range(len(classes))}
         
         
