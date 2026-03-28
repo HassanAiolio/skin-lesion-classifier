@@ -52,4 +52,4 @@ gr.Interface(
     inputs=gr.Image(type="pil"),
     outputs=gr.Label(num_top_classes=8),
     title="Skin Lesion Classifier"
-).launch()
+).launch(ssr_mode=False)
